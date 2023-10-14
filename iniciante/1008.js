@@ -1,5 +1,3 @@
-const { parse } = require('path');
-
 var input = require('fs').readFileSync('../stdin', 'utf8');
 [A,B,C] = input.split("\n");
 
