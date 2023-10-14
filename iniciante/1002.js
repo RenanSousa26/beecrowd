@@ -1,4 +1,4 @@
-var input = require("fs").readFileSync("stdin", "utf8");
+var input = require("fs").readFileSync('../stdin', 'utf8');
 [raio] = input.split("\n").map(item => parseFloat(item));
 
 let area;

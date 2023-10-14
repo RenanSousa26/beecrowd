@@ -1,4 +1,4 @@
-var input = require("fs").readFileSync("stdin", "utf8");
+var input = require("fs").readFileSync('../stdin', 'utf8');
 
 const [A, B] = input.split("\n").map(item => parseInt(item));
 

@@ -1,6 +1,6 @@
 var input = require("fs").readFileSync('../stdin', 'utf8');
 [A, B] = input.split("\n").map(item => parseInt(item));
 
-const SOMA = A + B;
+const PROD = A * B;
 
-console.log(`SOMA = ${SOMA}`);
+console.log(`PROD = ${PROD}`);
