@@ -3,7 +3,7 @@ var input = require("fs").readFileSync("stdin", "utf8");
 
 let area;
 
-area = 3.14159 * raio ** 2
+area = 3.14159 * raio ** 2;
 
 console.log(`A=${area.toFixed(4)}`)
 
